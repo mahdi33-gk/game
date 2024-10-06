@@ -4,6 +4,6 @@ function display(){
         console.log(user.name);
         const li = document.createElement('li');
         li.innerText ='user.name'
-        ul.appendChild(li);
+        ul.appendChild(li)
     }
 }
