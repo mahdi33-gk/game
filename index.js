@@ -3,6 +3,7 @@ function display(){
     for(const user of data){
         console.log(user.name);
         const li = document.createElement('li');
-        li.innerText ='user'
+        li.innerText ='user.name'
+        ul.appendChild(li);
     }
 }
