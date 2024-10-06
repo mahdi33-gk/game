@@ -5,5 +5,6 @@ function display(){
         const li = document.createElement('li');
         li.innerText ='user.name'
         ul.appendChild(li)
+        li.TEXT_NODE
     }
 }
