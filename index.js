@@ -8,3 +8,14 @@ function display(){
         li.TEXT_NODE
     }
 }
+function display(){
+    const postcontainer = document.getElementById('heythere')
+    for(const post of posts){
+        const postdiv = document.createElement('div')
+        postdiv.innerHTML = ` 
+            <h3>hey</h3>
+        
+        `
+        postcontainer.appendChild('postdiv')
+    } 
+}
